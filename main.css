@@ -3,19 +3,32 @@
     box-sizing: border-box;
   }
   header{
-    position: fixed;
+    position: sticky;
     top: 0; left: 0; right: 0;
     background-color: rgb(0, 0, 0);
     padding: 5%;
     display: flex;
     justify-content: space-between;
+    z-index: 100000;
+    
   }
   h4{
-    color: rgb(255, 255, 255);
+    color: rgb(248, 245, 245);
   }
 .icons{
   color: rgb(255, 255, 255);
   margin: 5px;
+  justify-content: space-between;
+}
+.tooltip{
+  display: inline-flex;
+  background-color: rgb(57, 54, 54);
+} */
+.c-item{
+  height: 350px;
+}
+.c-img{
+  height: 100%;
 }
  .container-1{
     display: flex-start;
@@ -30,15 +43,17 @@
  .image{
     width: 150px;
     height: 150px;
-    background-color: rgb(51, 50, 50);   
+    background-color: rgb(51, 50, 50);  
+    position: relative;
+   left: 10%; 
  }
  .fa-solid{
     color: rgb(147, 15, 8);
     font-size: 10px;
  }
  .title{
-   font-weight: bold;
-   color: rgb(13, 13, 13);
+   font-weight: small;
+   color: rgb(14, 13, 13);
  }
  .content{
    font-weight: small;
@@ -50,19 +65,25 @@
  }
  .fa-sharp{
    color: black;
+   font-size: 20px;
    
  }
+ .cost{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+}
  .reduce{
-   font-size: 10px;
+   font-size: 18px;
    color: rgb(45, 43, 43);
    text-decoration: line-through;
- }
- .cost{
-   font-weight: bold;
-   color: rgb(10, 10, 10);
  }
  button{
    color: rgb(249, 245, 245);
    background-color: red;
    border: none;
+   padding: 5px;
+   position: relative;
+   left: 25%;
  }
+

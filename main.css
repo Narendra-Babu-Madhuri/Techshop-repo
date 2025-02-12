@@ -3,10 +3,10 @@
     box-sizing: border-box;
   }
   header{
-     position: fixed;
+    position: fixed;
     top: 0; left: 0; right: 0; 
     background-color: rgb(12, 12, 12); 
-     padding: 10px;  
+    padding: 10px;  
     
   } 
   .navbar{
@@ -46,40 +46,45 @@ section{
 }
 h4{                     /*products*/
   text-align: center;
-  margin-top: 10%; 
+  margin-top: 25%; 
 }
-.item-0{
+ul.Products{
   display: flex;
-  flex-direction: row-reverse; 
-  justify-content: space-around;
-  
-  
+  list-style-type: none;
+  margin-left: 21px;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 10%;
 }
+
 .item-0:hover{
   background-color: rgb(255, 0, 0);
   color: white;
   cursor: pointer;
+  padding: 2px;
+  border-radius: 2px;
 }
  .container{
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
 }
  .item{                           /*cards*/
     justify-content: space-around;
     border: solid rgb(6, 6, 6);
     width: 220px;
-    margin-top: 50px;
-    /* margin-left: 2px;  */
+    margin-top: 30px;
     padding: 3px;
-  
+    border-radius: 5px;  
 }
  .image{
     width: 150px;
     height: 150px;
     background-color: rgb(254, 252, 252);  
     position: relative;
-    left: 10%; 
+    left: 10%;
+    border-radius: 5px;   
  }
  .fa-solid{
     color: rgb(147, 15, 8);
@@ -90,7 +95,7 @@ h4{                     /*products*/
  .title{
    font-weight: small;
    color: rgb(11, 11, 11);
-   /* text-align: start; */
+   text-align: start;
  }
  .content{
    font-weight: small;
@@ -125,8 +130,166 @@ h4{                     /*products*/
    padding-right: 20%;
    position: relative;
    left: 8.7%;
+   border-radius: 5px;
  }
  button:hover {
-  transform: scale(1.2); /* Increases size on hover */
+  transform: scale(1.1); /* Increases size on hover */
+  border-radius: 2px;
 }
+.advantages {
+  margin-top: 30px; 
+  text-align: center;
+  padding: 20px; 
+}
+.advantage-icons {
+  display: flex;
+  justify-content: center;
+  /* gap: 30px;  */
+  flex-wrap: wrap;
+  margin-top: 6%;
+}
+.advantage-icons i{
+  font-size: 30px;
+  color: red;
+  margin-top: 8px;
+}
+
+.advantage-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer-main{
+  margin-top: 20px;
+  padding: 10px 10px;
+  display: flex;
+  background-color: #111;
+} 
+.footer-content h3{
+  font-weight:bold;
+  font-size: 25px;
+  color: rgb(233, 233, 227);
+  /* padding-right: 250px; */
+}
+.footer-content p{
+  color: rgb(209, 209, 202);
+  font-size: 25px; 
+  padding-right: 10%;
+}
+
+.footer-btn input{
+  display: flex;
+  padding-left: 30%;
+  padding-right: 15%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  background-color: hsl(0, 4%, 21%);
+  border: rgb(61, 57, 57);
+  
+}
+.footer-btn button{
+  background-color: red;
+  color: white;
+  width: 45%;
+  padding: 10px;
+  position: relative;
+  right: 70%;
+  border: none;
+}
+.footer-column{
+  padding-left: 100px;
+}
+.footer-column h3{
+ font-weight:bold;
+ font-size: 25px;
+ color: rgb(228, 228, 222);
+}
+.footer-column ul li{
+  list-style: none;
+  color: rgb(209, 209, 202);
+  padding-right: 35px;
+  margin: 8px;
+  font-size: 20px;
+}
+.footer-bottom {
+  display: flex;
+  background-color: #111;
+}
+.footer-bottom p{
+  color: rgb(228, 228, 222);
+}
+.social-icons{
+  color: rgb(228, 228, 222);
+  padding-left: 58%;
+}
+.social-icons i{
+  margin: 20px;
+}
+
+/* .footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.subscribe input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #222;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+} */
 

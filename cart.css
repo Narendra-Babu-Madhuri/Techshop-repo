@@ -1,0 +1,218 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(12, 12, 12) !important;
+    color: white;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0; 
+    z-index: 100;
+    background-color: rgb(12, 12, 12); 
+    padding: 30px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  } 
+  .headertitle{
+    color: white;
+    
+  }
+  .headericons{
+    color: white;
+    display: flex;
+    gap: 25px;
+  }
+
+  .card-container{
+    display: flex !important;  
+    margin-top: 100px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 10px;
+
+   }
+  .card-container-col-1 {
+    color: aliceblue;
+    width: 55%;
+    
+    
+  }
+  .card-container-col-1-itme-1{
+    display: flex;
+  }
+  .card-container-col-1 img{
+    width: 210px;
+    margin: 18px;
+  }
+  .card-container-col-1-text{
+    margin: 10px 0 0 15px;
+  }
+  .card-container-col-1-logo{
+    margin-top: 17px;
+    font-size: 1.6rem;
+  }
+  .card-container-col-1-price{
+    margin-top: 17px;
+    font-size: 1.8rem;
+  }
+  .card-container-col-1-logo-strike{
+    margin-left: 8px;
+    font-size: 1.4rem;
+    opacity: 0.7;
+    text-decoration: line-through;
+    margin-top: 17px;
+  }
+  .card-container-col-1-counter-1{
+    margin-top: 17px;
+    font-size: large;
+    border: 2px solid rgb(74, 72, 72);
+    background-color: black;
+    color: red;
+    width: 50px;
+  }
+  .delete{
+    margin: 15px;
+    font-size: large;
+    color: red;
+  }
+  .card-container-col-2{
+    color: aliceblue;
+    margin-left: 10%;
+    
+  }
+  .card-container-col-2-items{
+    display: flex;
+  }
+  .card-container-col-2 h2{
+    font-size: 2.3rem;
+    margin-left: 30px;
+  }
+  .card-container-col-2 ul li{
+    list-style: none;
+    font-size: 1.8rem;
+  }
+  .card-container-col-2-list-1{
+    margin: 15px 50px 0 0;
+    
+  }
+  .card-container-col-2-list-2{
+    margin: 15px 0 0 85px;
+  }
+  .cost-2, .cost-3{
+    color: green;
+  }
+  .card-container-col-2 h2{
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+  .total-prize-cost{
+    margin-left: 90px;
+  }
+  .card-container-col-2 button{
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    width: 50%;
+    margin-left: 115px;
+    margin-top: 20px;
+  }
+  /* footer */
+  .footer-title{
+    color: aliceblue;
+    text-align: center;
+    margin: 80px;
+  }
+  .footer-items{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-items-logo-out{
+    display: flex;
+  }
+  .footer-items-logo-in{
+    color: red;
+    font-size: 45px;
+    margin-right: 10px;
+  }
+  .footer-items-text p{
+    color: rgb(101, 102, 104);
+  }
+                          /* footer body */
+  .home-page-footer{
+    background-color: black;
+  }
+  .footer-body{
+    color: aliceblue;
+    display: flex;
+    padding: 25px;
+    margin-top: 45px;
+  }
+  .footer-body-col{
+    margin-left:10px;
+    max-width: 480px;
+  }
+  .footer-body-col h2{
+    font-size: xxx-large;
+  }
+  .footer-body-col p{
+    font-size: 25px;
+    color:rgb(143, 138, 138);
+  }
+  .footer-body-col button{
+   border-radius: 5px;
+   display: flex;
+  }
+  .footer-body-col-btn{
+    padding: 16px;
+    width: 425px;
+    background-color: rgb(6, 5, 5);
+    color: aliceblue;
+    border: rgb(150, 24, 24);
+  }
+  .footer-body-col-subscrib-btn{
+    background-color: red;
+    border: none;
+    width: 200px;
+    padding: 8px;
+    font-size: medium;
+    margin-top: 13px;
+  }
+  .footer-body-col-1{
+    margin-right: 100px;
+    margin-left: 23px;
+    margin-top: 10px;
+  }
+  .footer-body-col-1 h4{
+    font-size: x-large;
+    margin-left: 33px;
+  } 
+  .footer-body-col-1 ul{
+    list-style: none;
+  }
+  .footer-body-col-1 ul li{
+    margin-top: 20px;
+    font-size: x-large;
+    color: rgb(143, 138, 138);
+  }
+  .footer-body-end{
+    display: flex;
+  }
+  .footer-body-end h5{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .footer-last-logo{
+    margin-left: 800px;
+  }
+  .footer-last-logo i{
+    color: aliceblue;
+    margin: 20px;
+  }

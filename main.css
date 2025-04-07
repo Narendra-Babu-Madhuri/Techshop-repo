@@ -328,3 +328,103 @@
     margin: 20px;
   }
 
+  /* user contact form */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #111;
+    color: white;
+  }
+  
+  .headericons i,
+  .headericons label {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Modal (hidden by default) */
+  .form-modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Show modal when checkbox is checked */
+  #showForm:checked ~ .form-modal {
+    display: flex;
+  }
+  
+  /* Signup form styles */
+  .contact-info {
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(45, 44, 44);
+    width: 350px;
+    color: aliceblue;
+  }
+  
+  .contact-info input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: rgb(26, 25, 25);
+    border-radius: 5px;
+    width: 100%;
+    color: aliceblue;
+  }
+  
+  .contact-info h2,
+  .contact-info p,
+  .contact-info span {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .login-signup-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    width: 100%;
+    color: white;
+  }
+  
+  .login-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .login-buttons button {
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .login-btn-1 { background-color: #1877f2; }  /* Facebook */
+  .login-btn-2 { background-color: #db4437; }  /* Google */
+  .login-btn-3 { background-color: #1da1f2; }  /* Twitter */
+  
+  /* Close (X) button */
+  .close-btn {
+    position: relative;
+    left: 100%;
+    bottom: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+  }
+

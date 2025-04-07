@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.close-btn {
+    position: relative;
+    left: 100%;
+    bottom: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+.contact-info {
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); 
+    border: 2px solid rgb(45, 44, 44);
+    width: 350px;
+    justify-content: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+.contact-info input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: rgb(26, 25, 25);
+    border-radius: 5px;
+    width: 100%;
+    color: aliceblue;
+}
+
+.contact-info h2, .contact-info p, .contact-info span {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-signup-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+.login-buttons{
+    position: relative;
+    left: 23px;
+}
+
+.login-btn-1{
+    background-color: rgb(22, 142, 217);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+}
+.login-btn-2{
+    background-color: rgb(168, 72, 13);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+}
+.login-btn-3{
+    background-color: rgb(92, 146, 180);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+}

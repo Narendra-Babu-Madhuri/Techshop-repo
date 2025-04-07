@@ -14,18 +14,41 @@
 </head>
 
 <body>
+    <input type="checkbox" id="showForm" hidden />
     <header>
         <div>
             <h4 class="headertitle">Tech-Shop</h4>
-        </div>
-        <div class="headericons">
+          </div>
+          <div class="headericons">
             <i class="fa fa-search"></i>
-            <a href="cart.html">
-            <i class="fa fa-cart-shopping"></i>
-            </a>
-            <i class="fa fa-user"></i>
+            <a href="cart.html"><i class="fa fa-cart-shopping"></i></a>
+            <!-- label for checkbox acts as trigger -->
+            <label for="showForm" class="fa fa-user" id="userIcon"></label>
+          </div>
         </div>
     </header>
+    <div class="form-modal">
+        <form>
+          <div class="contact-info">
+            <!-- Close Button (same label for checkbox) -->
+            <label for="showForm" class="close-btn">&times;</label>
+            <h2>Signup</h2>
+            <p>Already have an account? <span>Login</span></p>
+            <input type="text" placeholder="Username"/>
+            <input type="email" placeholder="Email"/>
+            <input type="password" placeholder="Password"/>
+            <input type="password" placeholder="Confirm Password"/>
+            <button class="login-signup-btn">Signup</button>
+            <hr><span>or login with</span><hr>
+            <div class="login-buttons">
+              <button class="login-btn-1">Facebook</button>
+              <button class="login-btn-2">Google</button>
+              <button class="login-btn-3">Twitter</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    
     <!-- carousel start -->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">

@@ -177,7 +177,11 @@
     /* max-width: 335px; */
     width: 100%;
     border: solid rgb(56, 54, 54); 
-    margin-top: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   .product-card-img{
     margin: 15px;
@@ -188,8 +192,16 @@
   }
   
   .product-card-body{
-    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 230px;
+    padding: 1rem;
   }
+  .product-content {
+    min-height: 180px; /* adjust to your layout */
+  }  
+  
   .product-card-stars i{
     color: red !important;
     margin-left: 20px !important;
@@ -205,9 +217,11 @@
     position: relative;
     left: 20px;
     font-size: x-large;
+
   }
   .product-card-price{
     margin-left: 20px !important; 
+    margin-top: auto;
   } 
   .product-cost, .product-cost-rupee{
     color: aliceblue;
@@ -224,8 +238,9 @@
     color: rgb(55, 51, 51);
   }
   .product-card-btn{
-    margin-left: 100px;
-    margin-top: 10px;
+    /* margin-left: 100px; */
+    align-self: center;
+    margin-top: 1rem;
     margin-bottom: 10px;
   }
   .product-card-btn:hover{
